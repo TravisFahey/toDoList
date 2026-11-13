@@ -16,6 +16,15 @@ with an emulator or simulator. An iOS simulator requires macOS.
 For a browser preview, use `npm run web`.
 On Windows PowerShell, use `npm.cmd` if script execution policy blocks `npm`.
 
+## Expo Snack
+
+The `snack/` folder contains a standalone version with `App.js` and `package.json`,
+matching the structure of the SDEV257 Snack example. It uses only React and React
+Native, which Snack provides, so no extra dependencies are needed.
+
+In Expo Snack, replace `App.js` with `snack/App.js` and use `snack/package.json`
+for the package file. The task component is included directly in the Snack entry point.
+
 ## Use
 
 Type a task and press **+** or the keyboard's Done/Enter key to add it.
